@@ -1,14 +1,24 @@
 package com.sylix.postapi.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@org.springframework.web.bind.annotation.RestController
+@RestController
 @RequestMapping("v1")
-public class RestControllerV1 {
+class RestControllerV1 {
+
 
     @RequestMapping("systems/ping")
-    private String ping() {
+    fun ping(): String {
         return "hello ! World !!";
     }
-
 }
+
+
+
+
+
+
+
+
+
