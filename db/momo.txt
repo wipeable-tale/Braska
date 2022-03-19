@@ -1,2 +1,6 @@
-DB接続
+psql-connect:
 psql -U root post_db;
+
+
+curl:
+curl http://localhost:8080/v1/systems/ping
