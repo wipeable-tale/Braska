@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sylix</groupId>
-	<artifactId>postapi</artifactId>
+	<artifactId>post-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>postapi</name>
+	<name>post-api</name>
 	<description>Restful api for post</description>
 	<properties>
 		<java.version>16</java.version>
