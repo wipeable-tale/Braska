@@ -1,0 +1,2 @@
+DB接続
+psql -U root post_db;

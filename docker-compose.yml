@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  db:
+    container_name: postgres
+    build:
+      context: .
+      dockerfile: ./db/docker/DockerFile
+    ports:
+      - 5432:5432
+    env_file: ./db/docker/env/.env
+    volumes:
+      - ./db/postgres/data:/var/lib/postgresql/data
+      - ./db/postgres/sql:/docker-entrypoint-initdb.d
+
+
